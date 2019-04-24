@@ -1,6 +1,9 @@
-.bordered {
-    width: 200px;
-    height: 100px;
-    padding: 20px;
-    border: 10px solid yellowgreen;
+@import url('https://fonts.googleapis.com/css?family=Allura|Caveat');
+
+header .logo {
+    text-align: center;
+    font-family: 'Allura', cursive;
+    font-family: 'Caveat', cursive;
+    font-size: 3.5rem;
 }
+    
