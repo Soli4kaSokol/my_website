@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Мій веб-сайт</title>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -18,99 +19,161 @@
             </ul>
         </nav>
         <div class="banner">
-            <h1>Доставка квітів, яка порадує ваших мам та бабусь</h1>
+            <h1>Доставка квітів, яка порадує ваших мам, коханих та бабусь</h1>
         </div>
     </header>
     <main>
-        <h2 id="букети">Букети</h2>
+        <h1 id="букети">Букети</h1>
         <div class="Букети">
-            <figure>
-                <img src="img/flowers1.jpg" alt="Flowers1"
-                width="145" height="145" />
-                <img src="img/flowers2.jpg" alt="Flowers2"
-                width="145" height="145" />
-                <img src="img/flowers3.jpg" alt="Flowers3"
-                width="145" height="145" />
-                <figcaption>500 грн   250грн   300 грн</figcaption>
-            </figure>
-            <figure>
-                <img src="img/flowers4.jpg" alt="Flowers4"
-                width="145" height="145" />
-                <img src="img/flowers5.jpg" alt="Flowers5"
-                width="145" height="145" />
-                <img src="img/flowers6.jpg" alt="Flowers6"
-                width="145" height="145" />
-                <figcaption>600 грн   150грн   400 грн</figcaption>
-            </figure>
-            <figure>
-                <img src="img/flowers7.jpg" alt="Flowers7"
-                width="145" height="145" />
-                <img src="img/flowers8.jpg" alt="Flowers8"
-                width="145" height="145" />
-                <img src="img/flowers9.jpg" alt="Flowers9"
-                width="145" height="145" />
-                <figcaption>700 грн   450грн   200 грн</figcaption>
-            </figure>
-        <br>
-        <h2>
-            Про нас
-        </h2>
-        <p>
-            Якщо Вам потрібно привітати своїх друзів, коханих, мам чи бабусь з будь-яким святом - ми завжди раді допомогти Вам зробити це! Ми складемо оригінальний букет на 
-            будь-який випадок. Ми гарантуємо Вам якість і свіжість квітів, своєчасну доставку, найяскравіші враження, і море позитивних емоцій від Ваших близьких!Наша Компанія флористики 
-            займається створенням унікальних авторських букетів, кошиків, ексклюзивних композицій і художнім оформленням інших приємних подарунків. Роботи наших флористів відрізняються 
-            оригінальністю, стилем, прекрасним виконанням. На нашому сайті Ви можете вибрати квіти на всі випадки життя. Це розкішні букети та квіткові композиції з будь-яких квітів, 
-            всіх форм і розмірів.
-        </p>
-        <p>
-            Замовляючи у нас, Ви можете бути впевнені в якості товару!Ми співпрацюємо тільки з найкращими флористами і вибираємо тільки професійних співробітників, тому гарантуємо високу 
-            якість обслуговування!Виконуючи роботу, ми враховуємо всі особливості подій, індивідуальні побажання та вподобання кожного клієнта!
-        </p>
-        <h2>
-            Доставка та оплата
-        </h2>
-        <table>
-            <tr>
-                <p>Доставка по місті вартує 70грн. Вартість поза межами міста узгоджується додатково.</p>
-                <br>
-                <p>Доставка квітів здійснюється з 07.00 до 22.00.</p>
-                <br>
-                <p>Доставка квітів здійснюється по всій території Львова в будь-яке вказане Клієнтом місце: в офіс, в квартиру, лікарню, кафе і т.д.</p>
-                <br>
-                <p>Оплата здійснюється на картку ПриватБанку через термінал самообслуговування, Приват24 чи будь-який інший сервіс.</p>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <h2>
-                    Замовте букет саме зараз
-                </h2>
-                <form method="POST" action="https://formspree.io/solomija2001@gmail.com"
-                    <label>
-                       <input type="name" placeholder="Ім'я" required>
-                    </label>
-                    <br>
-                    <label>
-                       <input type="email" placeholder="Електронна пошта" required>
-                    </label>
-                    <br>
-                    <input type="reset">
-                    <input type="submit">
-            </tr>
-        </table>
+        <div class="product-list">
+            <article class="product-card">
+                <img src="img/flowers1.jpg" alt="Flowers1">
+                <h3>500 грн</h3>
+                <div class="button-container">
+                    <button class="btn btn-shop btn-card">Купити</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="img/flowers2.jpg" alt="Flowers2">
+                <h3>250 грн</h3>
+                <div class="button-container">
+                    <button class="btn btn-shop btn-card">Купити</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="img/flowers3.jpg" alt="Flowers3">
+                <h3>300 грн</h3>
+                <div class="button-container">
+                    <button class="btn btn-shop btn-card">Купити</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="img/flowers4.jpg" alt="Flowers4">
+                <h3>600 грн</h3>
+                <div class="button-container">
+                    <button class="btn btn-shop btn-card">Купити</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="img/flowers5.jpg" alt="Flowers5">
+                <h3>150 грн</h3>
+                <div class="button-container">
+                    <button class="btn btn-shop btn-card">Купити</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="img/flowers6.jpg" alt="Flowers6">
+                <h3>400 грн</h3>
+                <div class="button-container">
+                    <button class="btn btn-shop btn-card">Купити</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="img/flowers7.jpg" alt="Flowers7">
+                <h3>700 грн</h3>
+                <div class="button-container">
+                    <button class="btn btn-shop btn-card">Купити</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="img/flowers8.jpg" alt="Flowers8">
+                <h3>450 грн</h3>
+                <div class="button-container">
+                    <button class="btn btn-shop btn-card">Купити</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="img/flowers9.jpg" alt="Flowers9">
+                <h3>200 грн</h3>
+                <div class="button-container">
+                    <button class="btn btn-shop btn-card">Купити</button>
+                </div>
+            </article>
+        </div>
     </main>
+        <h1 id="про нас">Про нас</h1>
+        <div class="Про нас"></div>
+            <p>
+                Якщо Вам потрібно привітати своїх друзів, коханих, мам чи бабусь з будь-яким святом - ми завжди раді допомогти Вам зробити це! Ми складемо оригінальний букет на 
+                будь-який випадок. Ми гарантуємо Вам якість і свіжість квітів, своєчасну доставку, найяскравіші враження, і море позитивних емоцій від Ваших близьких!Наша Компанія флористики 
+                займається створенням унікальних авторських букетів, кошиків, ексклюзивних композицій і художнім оформленням інших приємних подарунків. Роботи наших флористів відрізняються 
+                оригінальністю, стилем, прекрасним виконанням. На нашому сайті Ви можете вибрати квіти на всі випадки життя. Це розкішні букети та квіткові композиції з будь-яких квітів, 
+                всіх форм і розмірів.
+                <br>
+                Замовляючи у нас, Ви можете бути впевнені в якості товару!Ми співпрацюємо тільки з найкращими флористами і вибираємо тільки професійних співробітників, тому гарантуємо високу 
+                якість обслуговування!Виконуючи роботу, ми враховуємо всі особливості подій, індивідуальні побажання та вподобання кожного клієнта!
+            </p>
+        </div>
+        <h1 id="доставка та оплата">Доставка та оплата</h1>
+        <div class="order">
+            <p>
+                Доставка по місті вартує 70грн. Вартість поза межами міста узгоджується додатково.
+                <br>
+                <br>
+                Доставка квітів здійснюється з 07.00 до 22.00.
+                <br>
+                <br>
+                Доставка квітів здійснюється по всій території Львова в будь-яке вказане Клієнтом місце: в офіс, в квартиру, лікарню, кафе і т.д.
+                <br>
+                <br>
+                Оплата здійснюється на картку ПриватБанку через термінал самообслуговування, Приват24 чи будь-який інший сервіс.
+            </p>
+        </div>
+        <br>
+        <h2 id="замовте букет саме зараз">Замовте букет саме зараз</h2>
+        <div class="atonce">
+            <br>
+            <form class="forms">
+                <label>
+                    <input type="text" name="name" placeholder="Ім`я" >
+                </label>
+                <br>
+                 <label>
+                    <input type="text" name="surname" placeholder="Прізвище" >
+                </label>
+                <br>
+                <label>
+                    <input type="email" name="email" placeholder="Електронна пошта">
+                </label>
+                <br>
+                <label>
+                    <input type="phone" name="phone" placeholder="Номер телефону">
+                </label>
+                <br>
+                <label>
+                    <textarea name="message" placeholder="Повідомлення"></textarea>
+                </label>
+                <br>
+                <input type="reset" value="Скинути">
+                <input type="submit" value="Надіслати">
+                <div class="server-response"></div>
+            </form>
+        </div>
+        <br>
     <footer>
-        <p>Час роботи:</p>
+        <div class="shedule">
+            <h3>Час роботи:</h3>
+            <p>прийом замовлень: 08.00-18.00</p>
+            <p>доставка: 07.00-22.00</p>
+        </div>
         <br>
-        <p>прийом замовлень: 08.00-18.00</p>
+        <div class="contacts">
+            <h3>Наші контакти:</h3>
+            <p>(067) 45-34-673-87</p>
+            <p>(063) 63-58-737-10</p>
+            <p>floristic123@gmail.com</p>
+        </div>
         <br>
-        <p>доставка: 07.00-22.00</p>
-        <br>
-        <p>(067) 45-34-673-87</p>
-        <br>
-        <p>(063) 63-58-737-10</p>
-        <br>
-        <p>floristic123@gmail.com</p>
+        <div class="net">
+            <h3>Ми в соціальних мережах</h3>
+            <figure>
+                <img src="img/instagram.jpg" alt="Instagram">
+
+                <img src="img/facebook.jpg" alt="Facebook">
+            </figure>
+        </div>
     </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
