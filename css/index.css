@@ -187,7 +187,12 @@ footer .net figure {
     justify-content: center;
 }
 
-footer .feedback {
+footer .forms {
+    display: flex;
+    justify-content: center;
+}
+
+footer .location {
     display: flex;
     justify-content: center;
 }
